@@ -13,8 +13,8 @@ function runPythonScript($pythonScriptPath) {
 }
 
 $config = array(
-    'user_id' => '17841458451958482',
-    'access_token' =>'EAAEpJmYsbYkBO5HLuBcJ7ixZBBTtUlyHXTUqJlsf14xkp6qZC4vMrEsirQYvoP3qMJoHAIMznDYHAukFiuMMw69rYpqf7jWhz5Oo0Pq28g7Cj5zpWbOEknuMV1sjFy9ltGYUwmQ62lVZB581wjZCPZC9jCVZCPGgsZCvJi7OcxQWSfLIN6WUgMd9CVJpSRitbWZC',
+    'user_id' => 'YOUR USER ID INSTAGRAM',
+    'access_token' =>'YOUR INSTAGRAM ACCESS TOKEN',
 );
 
 // Check if the form is submitted
@@ -54,8 +54,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             // Share on LinkedIn
             $link = 'YOUR_LINK_TO_SHARE';
-            $access_token = 'AQWKtiRU4JGF_ycG2VM8SI21PQ2l6q5b0C1bmGRRmHvP2J1hdLAefnSArPotPdswUKDVL7Kbno6B0612TWzPK1T3J818BgfMTGlosuCXuOUEnZNIVctAH3K9oeAxHfDt6ej_eBTpc8xqFawf5JcVA6b45LGqS54NE-83qYZq_UdsU2zrX9x4VOsmiYzhvaiuxManR7ceWgVsLNN_f93WlKAcW79_NHZ0_GPM0TJaG5a1KR1EtFK3hmXkg8CxtObm7tqJGw7-QwpmAhjr2LfxNVh0_cXn1ubUva76JkaRmCCeGb0IRUy3E8osLtkOThotWkhKjub2jw_TrILIxCfsJUGh-Ej0MA';
-            $linkedin_id = 'yM57-TQj8H';
+            $access_token = 'YOUR LINKEDIN ACCESS TOKEN';
+            $linkedin_id = 'YOUR LINKEDIN USER ID';
             $body = new \stdClass();
             $body->content = new \stdClass();
             $body->content->contentEntities[0] = new \stdClass();
