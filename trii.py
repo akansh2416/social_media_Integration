@@ -5,7 +5,7 @@ from tkinter import filedialog
 def upload_image_to_imgur():
     # Set API endpoint and headers
     url = "https://api.imgur.com/3/image"
-    headers = {"Authorization": "Client-ID 2edb68fbd725704"}
+    headers = {"Authorization": "YOUR Client-ID "}
 
     # Read image file and encode as base64
     file_path = filedialog.askopenfilename(initialdir="/", title="Select file",
