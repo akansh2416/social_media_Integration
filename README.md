@@ -66,7 +66,3 @@ Before running this project, ensure you have the following:
 
 Contributions are welcome! Feel free to submit issues or pull requests for any improvements or features you'd like to see.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
